@@ -86,7 +86,7 @@ export class BindGroup
     }
 
     private _keyValue: string;
-    private _dirty = true;
+    protected _dirty = true;
 
     /**
      * Create a new instance of the Bind Group.
